@@ -1,1 +1,11 @@
-h1 this is header
+header
+  nav
+    h1
+      img(src="../static/images/logo.png", alt="The logo")
+    ul
+      each item in ['home', 'page', 'portfolio', 'blog', 'shop', 'shortcodes', 'feature', 'contact']
+        li
+          a(href="javascript: void(0);")=item.name
+      li
+        a(href="")
+          span(class='fa fa-search')
