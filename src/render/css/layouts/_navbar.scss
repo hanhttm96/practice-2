@@ -1,8 +1,11 @@
+nav {
+	  float: right;
+}
 ul.mainMenu li{
   display: inline-block;
   list-style: none;
   text-transform: uppercase;
-  padding-left: $padding-medium;
+  padding-left: $padding-large;
   @extend %height-define;
   color: $color-text-menu;
 }
