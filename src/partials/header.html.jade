@@ -1,11 +1,17 @@
-header
-  nav
+header.container
+  .logo_img.pull-left
     h1
-      img(src="../static/images/logo.png", alt="The logo")
-    ul
+      img(src="./images/logo.png", alt="The logo") 
+      |thefox
+  nav.pull-left
+    ul.mainMenu
       each item in ['home', 'page', 'portfolio', 'blog', 'shop', 'shortcodes', 'feature', 'contact']
         li
-          a(href="javascript: void(0);")=item.name
+          a(href="javascript: void(0);")=item
       li
         a(href="")
-          span(class='fa fa-search')
+          span.icon-search
+      li
+        a(href="")
+          span.icon-menu
+  .clear

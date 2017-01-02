@@ -1,0 +1,8 @@
+ul.mainMenu li{
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding-left: $padding-medium;
+  @extend %height-define;
+  color: $color-text-menu;
+}
