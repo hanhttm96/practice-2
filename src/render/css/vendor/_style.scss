@@ -111,11 +111,6 @@
     content: $icon-camera;
   }
 }
-.icon-dribbble2 {
-  &:before {
-    content: $icon-dribbble2;
-  }
-}
 .icon-google {
   &:before {
     content: $icon-google;
@@ -156,4 +151,13 @@
     content: $icon-clipboard;
   }
 }
-
+.icon-chevron-left {
+  &:before {
+    content: $icon-chevron-left;
+  }
+}
+.icon-chevron-right {
+  &:before {
+    content: $icon-chevron-right;
+  }
+}

@@ -1,14 +1,13 @@
 // code here
 body {
   margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-relway;
 }
 h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 .container {
-  width: 1170px;
-  padding: 0 15px;
+  width: $width-container;
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;

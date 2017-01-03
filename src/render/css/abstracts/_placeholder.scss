@@ -1,1 +1,11 @@
 // code here
+%height-define {
+  max-height: $height-tiny;
+  line-height: $line-height-large;
+}
+%margin-top {
+	margin-top: $margin-large*2;
+}
+%text-light-green {
+	color: $color-light-green;
+}

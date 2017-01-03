@@ -2,16 +2,19 @@ header.container
   .logo_img.pull-left
     h1
       img(src="./images/logo.png", alt="The logo") 
-      |thefox
+      | thefox
   nav
     ul.mainMenu
-      each item in ['home', 'page', 'portfolio', 'blog', 'shop', 'shortcodes', 'feature', 'contact']
+      li
+        a(href="javascript: void(0);").active
+          | home
+      each item in ['page', 'portfolio', 'blog', 'shop', 'shortcodes', 'feature', 'contact']
         li
           a(href="javascript: void(0);")=item
       li
-        a(href="")
+        a(href="javascript: void(0);")
           span.icon-search
       li
-        a(href="")
+        a(href="javascript: void(0);")
           span.icon-menu
   .clear

@@ -1,11 +1,19 @@
 nav {
-	  float: right;
+    float: right;
 }
 ul.mainMenu li{
+  @extend %height-define;
   display: inline-block;
   list-style: none;
   text-transform: uppercase;
   padding-left: $padding-large;
-  @extend %height-define;
   color: $color-text-menu;
+  font-size: $font-size-base;
+  font-weight: $weight-medium;
+}
+ul.mainMenu li a.active{
+  color: $color-light-green;
+}
+ul.mainMenu li a:hover{
+  color: $color-light-green;
 }

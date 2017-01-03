@@ -3,12 +3,12 @@
 
 # Define the DocPad Configuration
 docpadConfig = {
-	watchOptions:
-		preferredMethods: ['watchFile', 'watch']
-		catchupDelay: 0
-		regenerateDelay: 0
+  watchOptions:
+    preferredMethods: ['watchFile', 'watch']
+    catchupDelay: 0
+    regenerateDelay: 0
 
-	templateData:
+  templateData:
     url: "index.html"
     site:
       title: ""
@@ -34,4 +34,3 @@ docpadConfig = {
 
 # Export the DocPad Configuration
 module.exports = docpadConfig
-

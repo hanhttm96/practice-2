@@ -1,14 +1,13 @@
-%height-define {
-  max-height: $max-height-small;
-  line-height: $line-height;
-}
 .logo_img {
   @extend %height-define;
 }
 .logo_img img {
-  vertical-align:middle;
+  vertical-align: middle;
+  position: relative;
+  top: $top-small;
+  padding-right: $padding-medium;
 }
 .logo_img h1 {
   font-size: $font-size-h1;
-  font-weight: $large-weight;
+  font-weight: $weight-large;
 }

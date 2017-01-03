@@ -1,30 +1,50 @@
-// font size
+//font text
+$font-relway: 'Raleway', sans-serif;
+$font-times: 'Times New Roman', sans-serif;
 
-$font-size-base: 12px;
-$font-size-medium: 14px;
-$font-size-large: 16px;
+// font size
+$font-size-base: 13px;
+$font-size-medium: 36px;
+$font-size-large: 60px;
 $font-size-h1: 30px;
 
 // margin - padding
-
 $margin-tiny: 5px;
 $margin-small: 10px;
 $margin-medium: 15px;
-$margin-large: 20px;
+$margin-large: 50px;
 
 $padding-tiny: 5px;
 $padding-small: 10px;
 $padding-medium: 15px;
-$padding-large: 25px;
+$padding-large: 40px;
 
-//height
-$max-height-small: 100px;
-$line-height: 100px;
+//line-height
+$line-height-small: 50px;
+$line-height-medium: 70px;
+$line-height-large: 100px;
 
-//color text menu
-$color-text-menu: #000;
+//color
+$color-while: #fff;
+$color-text-menu: #2c3e50;
+$color-light-green: #04bfbf;
+$color-gray: #92a0a9;
+$color-light-gray: #ecf0f1;
+$color-button: #60646e;
 
 //font weight
-$small-weight: 400;
-$medium-weight: 600;
-$large-weight: 800;
+$weight-small: 400;
+$weight-medium: 600;
+$weight-large: 800;
+
+//width - height
+$height-tiny: 100px;
+$height-small: 280px;
+$height-medium: 500px;
+$height-large: 977px;
+
+$width-container: 1170px;
+
+//top - left - buttom - right
+$top-small: -5px;
+

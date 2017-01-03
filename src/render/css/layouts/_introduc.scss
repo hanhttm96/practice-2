@@ -1,0 +1,29 @@
+.introduc {
+  @extend %margin-top;
+  display: flex;
+}
+.intro-box {
+  width: 33%;
+  text-align: center;
+  margin-left: 3px;
+}
+.intro-box p.title {
+  @extend %text-light-green;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: $color-light-gray;
+  margin: 0 auto;
+  margin-bottom: $padding-large+10;
+}
+.circle:hover {
+  color: $color-while;
+  background-color: $color-light-green;
+}
+.circle span {
+  position: relative;
+  top: 40%;
+  font-size: $font-size-h1;
+}

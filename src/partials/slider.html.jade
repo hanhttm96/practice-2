@@ -1,22 +1,24 @@
-#carousel-example-generic.carousel.slide(data-ride='carousel')
-  // Indicators
-  ol.carousel-indicators
-    li.active(data-target='#carousel-example-generic', data-slide-to='0')
-    li(data-target='#carousel-example-generic', data-slide-to='1')
-    li(data-target='#carousel-example-generic', data-slide-to='2')
-  // Wrapper for slides
-  .item
-    img(src='...', alt='...')
-    .carousel-caption
-      p hello world!
-      h2 Are you ready to experience stunning thefox design
-      p We make the best awesome design around
-      button PURCHASE NOW
-      button KEY FEATURES
-  // Controls
-  a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
-    span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
-    span.sr-only Previous
-  a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
-    span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
-    span.sr-only Next
+section.slider
+  #carousel-example-generic.container.carousel.slide(data-ride='carousel')
+    // Indicators
+    ol.carousel-indicators
+      li(data-target='#carousel-example-generic', data-slide-to='0')
+      li.active(data-target='#carousel-example-generic', data-slide-to='1')
+      li(data-target='#carousel-example-generic', data-slide-to='2')
+      li(data-target='#carousel-example-generic', data-slide-to='3')
+    // Wrapper for slides
+    .item
+      //- img(src='...', alt='...') image of slider
+      .carousel-caption
+        p Hello world!
+        h2 Are you ready to experience stunning thefox design
+        p We make the best awesome design around
+        button PURCHASE NOW
+        button KEY FEATURES
+    // Controls
+    a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
+      span.icon-chevron-left(aria-hidden='true')
+      span.sr-only Previous
+    a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
+      span.icon-chevron-right(aria-hidden='true')
+      span.sr-only Next

@@ -1,0 +1,79 @@
+//code here
+section.slider {
+  background-color: $color-gray;
+  position: relative;
+  color: $color-while;
+  box-sizing: border-box;
+}
+.slider p{
+  font-family: $font-times;
+  font-size: $font-size-medium;
+  line-height: $line-height-small+12;
+}
+.slider h2 {
+  font-size: $font-size-large;
+  line-height: $line-height-medium;
+  font-weight: $weight-large;
+}
+div#carousel-example-generic {
+  padding: $padding-large+262 0;
+}
+.carousel-control {
+  position: absolute;
+  width: 15%;
+  font-size: $font-size-base;
+  color: #fff;
+  text-align: center;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: $color-while;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  background-color: $color-light-green;
+}
+.carousel-control .icon-chevron-left {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+.carousel-caption button {
+  outline: none;
+  background: none;
+  border: solid 1px $color-while;
+  color: $color-while;
+  font-weight: $weight-medium;
+  padding: $padding-medium+5 $padding-large+10;
+  margin: $margin-large $margin-medium 0 0;
+  font-size: $font-size-base+1;
+}
+.carousel-caption button:hover {
+  color: $color-text-menu;
+  background-color: $color-while;
+}
