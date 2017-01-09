@@ -28,7 +28,8 @@ section.new {
   padding-top: 15px;
 }
 .blog-post p {
-  padding-top: 30px;
+  padding: 25px;
+  text-align: initial;
 }
 .img {
   height: 250px;
@@ -36,4 +37,8 @@ section.new {
 }
 .warp-blog-post .blog-post:nth-child(even) {
   margin: 50px 30px;
+}
+.new button {
+  background-color: $color-light-green;
+  padding: 25px 50px;
 }
