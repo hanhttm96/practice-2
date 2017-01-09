@@ -2,4 +2,12 @@
 .preview, .next {
   background-color: $color-button;
 }
-
+button {
+  outline: none;
+  border: solid 1px $color-while;
+  color: $color-while;
+  font-weight: $weight-medium;
+  font-size: $font-size-base+1;
+  text-transform: uppercase;
+  cursor: pointer;
+}

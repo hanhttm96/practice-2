@@ -1,1 +1,8 @@
 // code here
+@mixin font-size($size) {
+	font-size: $size;
+}
+@mixin circle($size) {
+	width: $size;
+	height: $size;
+}

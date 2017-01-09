@@ -1,0 +1,23 @@
+.social {
+  @extend %margin-top;
+  text-align: center;
+}
+.social-text {
+  @extend %section-text;
+}
+.social hr {
+  @extend %hr;
+  background-color: $color-gray;
+}
+.social  h2 {
+  @extend %h2-define;
+}
+.social .circle{
+  @include circle(100px);
+  @extend .style-circle;
+}
+.social ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0 40px;
+}

@@ -1,0 +1,39 @@
+section.new {
+  @extend %margin-top;
+  text-align: center;
+}
+.intro-title h2 {
+  @extend %h2-define;
+}
+.intro-title hr {
+  @extend %hr;
+  background-color: $color-gray;
+}
+.intro-title {
+  @extend %section-text;
+}
+.warp-blog-post {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog-post {
+  width: 370px;
+  height: 500px;
+  border: solid 1px $color-light-gray;
+  box-sizing: border-box;
+  padding-top: 30px;
+  margin: 50px 0;
+}
+.blog-post h5 {
+  padding-top: 15px;
+}
+.blog-post p {
+  padding-top: 30px;
+}
+.img {
+  height: 250px;
+  background-color: $color-box1;
+}
+.warp-blog-post .blog-post:nth-child(even) {
+  margin: 50px 30px;
+}

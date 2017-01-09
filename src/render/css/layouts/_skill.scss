@@ -1,0 +1,87 @@
+.skill {
+  text-align: center;
+  @extend %margin-top;
+  background-color: $color-light-gray;
+}
+.skill hr {
+  @extend %hr;
+  background-color: $color-gray;
+}
+.skill h2 {
+  @extend %h2-define;
+}
+.warp-skill {
+  @extend %section-text;
+  padding-top: 100px;
+}
+.skill-rate {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 65px;
+}
+.skill-rate .percent {
+  width: 570px;
+  height: 15px;
+  border: solid 1px $color-border;
+  margin-right: 25px;
+}
+.percent {
+  background-color: $color-while;
+}
+.percent-rate {
+  position: absolute;
+  background-color: $color-light-green;
+  height: 15px;
+  z-index: 100;
+}
+.skill-rate h4 {
+  color: $color-text-menu;
+  float: left;
+  position: relative;
+  top: -25px;
+  @include font-size(14px);
+  font-weight: 800;
+}
+.wordpress-rate {
+  width: 80%;
+  @extend .percent-rate;
+}
+.design-rate {
+  width: 90%;
+  @extend .percent-rate;
+}
+.maketing-rate {
+  width: 60%;
+  @extend .percent-rate;
+}
+.graphic-rate {
+  width: 70%;
+  @extend .percent-rate;
+}
+.psd-rate {
+  width: 90%;
+  @extend .percent-rate;
+}
+.support-rate {
+  width: 80%;
+  @extend .percent-rate;
+}
+.skill-slider {
+  background-color: $color-box;
+  color: $color-while;
+  padding: 195px 0 100px 0;
+  text-align: center;
+}
+.skill-slider hr {
+  @extend %hr;
+  background-color: $color-while;
+}
+.skill-slider h5 {
+  @include font-size(24px);
+  font-family: $font-playfair;
+  line-height: 40px;
+}
+.skill-slider button{
+  margin-top: 110px;
+  background: none;
+}

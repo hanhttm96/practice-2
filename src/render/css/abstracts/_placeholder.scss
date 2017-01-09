@@ -4,8 +4,35 @@
   line-height: $line-height-large;
 }
 %margin-top {
-	margin-top: $margin-large*2;
+  margin-top: $margin-large*2;
 }
 %text-light-green {
-	color: $color-light-green;
+  color: $color-light-green;
 }
+%hr {
+  width: 50px;
+  height: 2px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+%title-light-green {
+  @extend %text-light-green;
+  font-family: $font-playfair;
+  padding-bottom: $padding-medium;
+  text-transform: capitalize;
+  @include font-size(16px);
+}
+%h2-define {
+  color: $color-dark-gray;
+  font-size: $font-size-h1;
+  font-weight: $weight-large;
+}
+%section-text {
+  text-align: center;
+  position: relative;
+  padding: 0 $padding-large*5;
+  box-sizing: border-box;
+  margin-bottom: $margin-large+20;
+}
+ 

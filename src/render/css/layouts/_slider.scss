@@ -6,7 +6,7 @@ section.slider {
   box-sizing: border-box;
 }
 .slider p{
-  font-family: $font-times;
+  font-family: $font-playfair;
   font-size: $font-size-medium;
   line-height: $line-height-small+12;
 }
@@ -64,16 +64,11 @@ div#carousel-example-generic {
   overflow: hidden;
 }
 .carousel-caption button {
-  outline: none;
   background: none;
-  border: solid 1px $color-while;
-  color: $color-while;
-  font-weight: $weight-medium;
-  padding: $padding-medium+5 $padding-large+10;
   margin: $margin-large $margin-medium 0 0;
-  font-size: $font-size-base+1;
+  padding: $padding-medium+5 $padding-large+10;
 }
 .carousel-caption button:hover {
   color: $color-text-menu;
-  background-color: $color-while;
+  background-color: $color-while; 
 }

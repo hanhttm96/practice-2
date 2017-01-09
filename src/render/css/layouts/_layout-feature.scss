@@ -1,0 +1,53 @@
+.warp-feature {
+  @extend %margin-top;
+  display: inline-flex;
+  color: $color-while;
+}
+.box-feature-green {
+  background-color: $color-light-green;
+}
+.box-feature-brown {
+  background-color: $color-dark-gray;
+}
+.box-feature-blue {
+  background-color: $color-light-blue;
+}
+.box-feature-green, .box-feature-brown, .box-feature-blue {
+  padding: 75px 70px;
+}
+.warp-feature hr {
+  @extend %hr;
+  background-color: $color-while;
+  margin-left: 0;
+}
+.warp-feature p {
+  @include font-size(14px);
+  color: $color-while !important;
+}
+.warp-feature p > a {
+  color: $color-while;
+  text-decoration: underline;
+}
+.warp-feature h4 {
+  @include font-size(24px);
+}
+.info {
+  @extend %title-light-green;
+  color: $color-while !important;
+}
+.warp-feature button {
+  background: none;
+  margin: $margin-large $margin-medium 0 0;
+  padding: 20px 75px;
+}
+.warp-feature button span.icon-arrow-long-right {
+  display: none;
+}
+.warp-feature button:hover {
+  background: none;
+  margin: $margin-large $margin-medium 0 0;
+  padding: 20px 75px;
+}
+.warp-feature button:hover span.icon-arrow-long-right{
+  display: inline-block;
+}

@@ -1,0 +1,98 @@
+.portfolio {
+  @extend %margin-top;
+  @extend %section-text;
+}
+.portfolio > h2 {
+  @extend %h2-define;
+}
+.portfolio p > a {
+  text-decoration: underline;
+}
+.portfolio hr {
+  @extend %hr;
+  background-color: $color-gray;
+}
+.row {
+  position: relative;
+  display: flex;
+  color: $color-while;
+}
+.h4-define{
+  font-weight: $weight-large;
+  padding-bottom: $padding-small;
+}
+ul.line1 li, ul.line2 li{
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  padding: 140px 130px;
+  color: $color-while;
+}
+ul.line1 li > h4 {
+  @extend .h4-define;
+}
+ul.line2 li > h4 {
+  @extend .h4-define;
+}
+ul.line1 li:nth-child(even) {
+  background-color: $color-box;
+}
+ul.line1 li:nth-child(odd) {
+  background-color: $color-box1;
+}
+ul.line2 li:nth-child(odd) {
+  background-color: $color-box;
+}
+ul.line2 li:nth-child(even) {
+  background-color: $color-box1;
+}
+ul.line1 li:hover {
+  background-color: $color-gray;
+}
+ul.line2 li:hover {
+  background-color: $color-gray;
+}
+ul.rate li {
+  display: inline-block;
+  padding: 95px 76px; 
+  text-align: center;
+  text-transform: capitalize;
+}
+.rate {
+  background-color: $color-dark-gray;
+  position: relative;
+  width: 100%;
+}
+.rate p.number {
+  @extend %text-light-green;
+  font-size: $font-size-large;
+  padding-bottom: $padding-medium;
+}
+.img-wooc, .great-wooc {
+  @extend %margin-top;
+  width: 50%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+.great-wooc {
+  padding-right: $padding-large+20;
+}
+.img-wooc {
+  padding-left: 85px;
+}
+.great-wooc h2 {
+  @extend %h2-define;
+}
+.great-wooc hr {
+  @extend %hr;
+  background-color: $color-gray;
+  float: left;
+}
+.great-wooc button {
+  background-color: $color-light-green;
+  padding: $padding-medium+7 $padding-large+22;
+  margin-top: $padding-medium*2;
+}
