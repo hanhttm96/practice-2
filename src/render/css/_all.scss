@@ -9,6 +9,10 @@
 @import './base/base';
 
 @import './components/button';
+@import './components/title';
+@import './components/circle';
+@import './components/container';
+@import './components/icon';
 
 @import './layouts/header';
 @import './layouts/navbar';
@@ -21,4 +25,7 @@
 @import './layouts/news';
 @import './layouts/mobile';
 @import './layouts/customer';
+@import './layouts/team';
+@import './layouts/client';
+@import './layouts/contact';
 @import './layouts/footer';

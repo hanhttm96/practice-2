@@ -1,0 +1,50 @@
+section.parallax {
+  background-color: $color-gray;
+  @extend %margin-top;
+  text-align: center;
+  color: $color-while;
+  padding: 350px 0;
+}
+.parallax h5 {
+  @include font-size(36px);
+  font-family: $font-playfair;
+}
+.parallax h2 {
+  @include font-size(100px);
+  padding: 15px 0 60px 0;
+}
+.parallax button {
+  background: none;
+  margin: 50px 15px 0 0;
+  padding: 20px 50px;
+}
+.parallax button:hover {
+  color: $color-text-menu;
+  background-color: $color-while; 
+}
+section.mobile {
+  @extend %margin-top;
+}
+.img-mobile {
+  display: inline-block;
+  width: 40%;
+}
+.optimized {
+  display: inline-block;
+  width: 60%;
+  float: right;
+  padding-top: 30px;
+}
+.optimized hr{
+  @extend %hr;
+  background-color: $color-gray;
+  margin-left: 0;
+}
+.optimized h2{
+  @extend %h2-define;
+}
+.optimized button {
+  background-color: $color-light-green;
+  padding: 22px 63px;
+  margin-top: 12px;
+}

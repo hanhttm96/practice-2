@@ -1,0 +1,10 @@
+.style-circle {
+  border-radius: 100%;
+  background-color: $color-light-gray;
+  margin: 0 auto;
+  margin-bottom: $padding-large+10;
+}
+.circle:hover {
+  color: $color-while;
+  background-color: $color-light-green;
+}

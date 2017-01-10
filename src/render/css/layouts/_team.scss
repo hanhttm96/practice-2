@@ -1,0 +1,49 @@
+section.team {
+  @extend %margin-top;
+}
+.warp-team {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.team-member {
+  width: 23%;
+}
+.team-member h5 {
+  @include font-size(12px);
+  margin-top: 10px;
+}
+.team-member hr {
+  background-color: $color-light-gray;
+  height: 1px;
+  border: none;
+}
+.profile {
+  position: relative;
+  background-color: $color-gray;
+  height: 250px;
+  margin-bottom: 30px;
+}
+.profile-hover {
+  position: absolute;
+  display: none;
+  background-color: $color-light-green;
+}
+ul.contact li {
+  @extend .style-circle;
+  @include circle(42px);
+  display: inline-block;
+  text-align: center;
+}
+ul.contact {
+  padding: 105px 65px;
+}
+ul.contact li span {
+  position: relative;
+  top: 12px;
+}
+.profile:hover .profile-hover{
+  display: block;
+  height: 250px;
+  position: inherit;
+}

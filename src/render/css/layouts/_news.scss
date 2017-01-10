@@ -2,16 +2,6 @@ section.new {
   @extend %margin-top;
   text-align: center;
 }
-.intro-title h2 {
-  @extend %h2-define;
-}
-.intro-title hr {
-  @extend %hr;
-  background-color: $color-gray;
-}
-.intro-title {
-  @extend %section-text;
-}
 .warp-blog-post {
   display: flex;
   flex-wrap: wrap;
@@ -25,20 +15,21 @@ section.new {
   margin: 50px 0;
 }
 .blog-post h5 {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .blog-post p {
-  padding: 25px;
+  padding: 30px;
   text-align: initial;
 }
 .img {
   height: 250px;
   background-color: $color-box1;
+  margin-top: 10px;
 }
 .warp-blog-post .blog-post:nth-child(even) {
   margin: 50px 30px;
 }
 .new button {
   background-color: $color-light-green;
-  padding: 25px 50px;
-}
+  padding: 20px 55px;
+} 

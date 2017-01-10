@@ -1,0 +1,51 @@
+section.customer {
+  @extend %margin-top;
+  background-color: $color-light-gray;
+  padding-top: 100px;
+}
+.intro-customer {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.customer-post {
+  width: 370px;
+  margin-bottom: 72px;
+}
+.customer-post .circle {
+  @include circle(60px);
+  @extend .style-circle;
+  background-color: $color-while !important;
+  float: left;
+}
+.capt-intro {
+  width: 75%;
+  float: right;
+}
+.capt-intro h4 {
+  padding-bottom: 20px;
+}
+.customer-post .circle span{
+  font-size: 20px;
+  position: relative;
+  left: 33%;
+  top: 35%;
+  color: $color-light-green;
+}
+.question {
+  background-color: $color-dark-gray;
+  padding: 70px 0;
+}
+.question h5 {
+  @include font-size(18px);
+  color: $color-light-gray;
+  display: inline-block;
+  text-transform: inherit;
+  word-spacing: 5px;
+}
+.question button {
+  background-color: $color-light-green;
+  padding: 22px 63px;
+  display: inline-block;
+  border: transparent;
+  margin-left: 100px;
+}

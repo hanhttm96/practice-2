@@ -8,35 +8,8 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   font-weight: $weight-large;
 }
-.container {
-  width: $width-container;
-  box-sizing: border-box;
-  margin: 0 auto;
-  position: relative;
-}
-.container-fluid {
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
-  position: relative;
-}
 a {
   text-decoration: none;
   color: $color-text-menu;
 }
-.pull-left {
-  float: left;
-}
-.clear {
-  clear: both;
-}
-.style-circle {
-  border-radius: 100%;
-  background-color: $color-light-gray;
-  margin: 0 auto;
-  margin-bottom: $padding-large+10;
-}
-.circle:hover {
-  color: $color-while;
-  background-color: $color-light-green;
-}
+

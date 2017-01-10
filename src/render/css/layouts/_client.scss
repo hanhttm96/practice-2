@@ -1,0 +1,31 @@
+section.client {
+  @extend %margin-top;
+  padding: 100px 0;
+  background-color: $color-bg-client;
+}
+.client h2 {
+  color: $color-while;
+}
+.client p {
+  color: $color-while;
+}
+.client hr {
+  background-color: $color-while;
+}
+ul.logo-client li{
+  position: relative;
+  display: inline-block;
+  padding: 0 46px;
+}
+img.before-hover {
+  display: block;
+}
+img.after-hover {
+  display: none;
+}
+ul.logo-client li:hover img.after-hover{
+  display: block;
+}
+ul.logo-client li:hover img.before-hover{
+  display: none;
+}

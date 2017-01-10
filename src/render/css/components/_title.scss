@@ -1,0 +1,19 @@
+.title {
+  @extend %title-light-green;
+}
+.intro-title h2 {
+  @extend %h2-define;
+}
+.intro-title hr {
+  @extend %hr;
+  background-color: $color-gray;
+}
+.intro-title {
+  @extend %section-text;
+}
+.p-lato {
+  font-family: $font-lato;
+  @include font-size(14px);
+  line-height: $line-height-tiny;
+  color: $color-button;
+}

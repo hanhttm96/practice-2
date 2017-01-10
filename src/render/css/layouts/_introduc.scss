@@ -12,9 +12,6 @@
 .intro-box h4{
   font-weight: $weight-large;
 }
-.title {
-  @extend %title-light-green;
-}
 .intro-box hr {
   @extend %hr;
   background-color: $color-gray;
@@ -22,11 +19,6 @@
 .intro-box .circle {
   @include circle(150px);
   @extend .style-circle;
-}
-.circle span {
-  position: relative;
-  top: 40%;
-  font-size: $font-size-h1;
 }
 section.who-we {
   position: relative;
@@ -53,12 +45,6 @@ section.who-we {
   border-right: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: 10px solid $color-dark-gray;
-}
-.p-lato {
-  font-family: $font-lato;
-  @include font-size(14px);
-  line-height: $line-height-tiny;
-  color: $color-button;
 }
 .we-are .warpper {
   position: relative;

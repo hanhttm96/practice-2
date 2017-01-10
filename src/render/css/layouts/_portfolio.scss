@@ -1,16 +1,8 @@
 .portfolio {
   @extend %margin-top;
-  @extend %section-text;
-}
-.portfolio > h2 {
-  @extend %h2-define;
 }
 .portfolio p > a {
   text-decoration: underline;
-}
-.portfolio hr {
-  @extend %hr;
-  background-color: $color-gray;
 }
 .row {
   position: relative;

@@ -3,15 +3,7 @@
   @extend %margin-top;
   background-color: $color-light-gray;
 }
-.skill hr {
-  @extend %hr;
-  background-color: $color-gray;
-}
-.skill h2 {
-  @extend %h2-define;
-}
 .warp-skill {
-  @extend %section-text;
   padding-top: 100px;
 }
 .skill-rate {

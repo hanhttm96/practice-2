@@ -1,0 +1,38 @@
+.maps {
+  background-color: $color-box;
+  height: 610px;
+  display: inline-block;
+  width: 40%;
+}
+.left-arrow {
+  display: inline-block;
+  position: relative;
+  background: $color-while;
+  padding: 18px;
+  float: right;
+  width: 58%;
+  left: -1px;
+  padding-top: 100px;
+}
+.left-arrow:after {
+  content: '';
+  display: block;  
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-top: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid $color-while;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+.left-arrow .intro-title {
+  text-align: inherit;
+  padding-left: 100px;
+  padding-right: 380px;
+}
+.left-arrow .intro-title hr {
+  margin-left: 0;
+}
