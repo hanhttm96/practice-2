@@ -4,6 +4,7 @@ section.new {
 }
 .warp-blog-post {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .blog-post {
@@ -23,11 +24,8 @@ section.new {
 }
 .img {
   height: 250px;
-  background-color: $color-box1;
+  background-color: $color-dark-brown;
   margin-top: 10px;
-}
-.warp-blog-post .blog-post:nth-child(even) {
-  margin: 50px 30px;
 }
 .new button {
   background-color: $color-light-green;

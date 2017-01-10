@@ -23,14 +23,15 @@
 section.who-we {
   position: relative;
   @extend %margin-top;
+  display: flex;
 }
 .we-are {
   background-color: $color-dark-gray;
   color: $color-while;
   position: relative;
-  display: inline-block;
   padding-left: 335px;
   z-index: 10;
+  width: 60%
 }
 .we-are:after {
   content: '';
@@ -54,10 +55,8 @@ section.who-we {
 .who-slider {
   position: relative;
   background-color: $color-gray;
-  display: inline-block;
   width: 40%;
-  height: 499px;
-  float: right;
+  height: 547px;
   z-index: 0;
   padding-left: 16px;
   left: -3px;

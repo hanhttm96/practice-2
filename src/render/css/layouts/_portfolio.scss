@@ -13,13 +13,16 @@
   font-weight: $weight-large;
   padding-bottom: $padding-small;
 }
+.line1, .line2 {
+  display: flex;
+}
 ul.line1 li, ul.line2 li{
   display: inline-block;
   width: 25%;
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  padding: 140px 130px;
+  padding: 140px 50px;
   color: $color-while;
 }
 ul.line1 li > h4 {
@@ -29,16 +32,16 @@ ul.line2 li > h4 {
   @extend .h4-define;
 }
 ul.line1 li:nth-child(even) {
-  background-color: $color-box;
+  background-color: $color-light-brown;
 }
 ul.line1 li:nth-child(odd) {
-  background-color: $color-box1;
+  background-color: $color-dark-brown;
 }
 ul.line2 li:nth-child(odd) {
-  background-color: $color-box;
+  background-color: $color-light-brown;
 }
 ul.line2 li:nth-child(even) {
-  background-color: $color-box1;
+  background-color: $color-dark-brown;
 }
 ul.line1 li:hover {
   background-color: $color-gray;
@@ -48,7 +51,7 @@ ul.line2 li:hover {
 }
 ul.rate li {
   display: inline-block;
-  padding: 95px 76px; 
+  padding: 95px 0; 
   text-align: center;
   text-transform: capitalize;
 }
@@ -56,6 +59,8 @@ ul.rate li {
   background-color: $color-dark-gray;
   position: relative;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 .rate p.number {
   @extend %text-light-green;

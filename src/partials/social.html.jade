@@ -1,3 +1,4 @@
+-var socialList = [{icon: 'icon-twitter', name: 'twitter'}, {icon: 'icon-facebook', name: 'facebook'}, {icon: 'icon-pinterest', name: 'pinterest'}, {icon: 'icon-instagram', name: 'instagram'}, {icon: 'icon-vimeo', name: 'vimeo'}, {icon: 'icon-youtube', name: 'youtube'}]
 section.container
   .social
     .intro-title
@@ -6,33 +7,9 @@ section.container
       hr
       p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus felis diam, et semper est accumsan quis
     ul
-      li
-        div.circle
-          span.icon-twitter
-        h5.title follow us on
-        h4 twitter
-      li
-        div.circle
-          span.icon-facebook
-        h5.title follow us on
-        h4 facebook
-      li
-        div.circle
-          span.icon-pinterest
-        h5.title follow us on
-        h4 pinterest
-      li
-        div.circle
-          span.icon-instagram
-        h5.title awesome pics on
-        h4 instagram
-      li
-        div.circle
-          span.icon-vimeo
-        h5.title video tutorial on
-        h4 vimeo
-      li
-        div.circle
-          span.icon-youtube
-        h5.title subscribe on
-        h4 youtube
+      each item in socialList
+        li
+          div.circle
+            span(class='#{item.icon}')
+          h5.title follow us on
+          h4= item.name

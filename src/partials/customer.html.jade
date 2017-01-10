@@ -1,3 +1,5 @@
+-var captIntro = 'Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus. Donec tristique eget neque sed cursus.'
+-var listCapt = [{icon: 'icon-edit', title: 'elegant blog designs'}, {icon: 'icon-device-laptop', title: 'super responsive'}, {icon: 'icon-camera', title: 'retina display'}, {icon: 'icon-content_paste', title: 'elegant woocommerce'}, {icon: 'icon-heart', title: 'firendly shortcode'}, {icon: 'icon-briefcase', title: 'esuper porfolio'}]
 section.customer
   .container
     .intro-title
@@ -5,42 +7,13 @@ section.customer
       h2 awesome key features
       hr
     .intro-customer
-      .customer-post
-        .circle
-          span.icon-edit
-        .capt-intro
-          h4 elegant blog designs
-          p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus. Donec tristique eget neque sed cursus.
-      .customer-post
-        .circle
-          span.icon-device-laptop
-        .capt-intro
-          h4 super responsive
-          p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus. Donec tristique eget neque sed cursus.
-      .customer-post
-        .circle
-          span.icon-camera
-        .capt-intro
-          h4 retina display
-          p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus. Donec tristique eget neque sed cursus.
-      .customer-post
-        .circle
-          span.icon-content_paste
-        .capt-intro
-          h4 elegant woocommerce
-          p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus. Donec tristique eget neque sed cursus.
-      .customer-post
-        .circle
-          span.icon-heart
-        .capt-intro
-          h4 firendly shortcodes
-          p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus. Donec tristique eget neque sed cursus.
-      .customer-post
-        .circle
-          span.icon-briefcase
-        .capt-intro
-          h4 esuper porfolio
-          p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus. Donec tristique eget neque sed cursus.
+      each item in listCapt
+        .customer-post
+          .circle
+            span(class='#{item.icon}')
+          .capt-intro
+            h4= item.title
+            p.p-lato= captIntro
 section.question
   .container
     h5.title Do you want to check all out features? All things are very nice and ready to customize!
