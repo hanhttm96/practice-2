@@ -1,40 +1,22 @@
 -var captBlog = 'Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus felis diam...'
+-var days = '12 october | category'
 section.new
   .container
     .intro-title
-      h5.title breaking news
+      h5.modal__title breaking news
       h2 check our latest blog
       hr
       p.p-lato Quisque commodo vestibulum arcu nec aliquet. Proin consectetur sed velit nec cursus. Mauris fringilla leo mollis sagittis ultricies. Maecenas cursus felis diam, et semper est accumsan quis.
-    .warp-blog-post
-      .blog-post
-        h4 hardworking on fox
-        h5.title 12 october | category
-        .img
-        p.p-lato= captBlog
-      .blog-post
-        h4 ready to love thefox
-        h5.title 12 october | category
-        .img
-        p.p-lato= captBlog
-      .blog-post
-        h4 standard post
-        h5.title 12 october | category
-        .img
-        p.p-lato= captBlog
-      .blog-post
-        h4 how do we call this
-        h5.title 12 october | category
-        .img
-        p.p-lato= captBlog
-      .blog-post
-        h4 beautiful design
-        h5.title 12 october | category
-        .img
-        p.p-lato= captBlog
-      .blog-post
-        h4 awesome work
-        h5.title 12 october | category
-        .img
-        p.p-lato= captBlog
+    .wrap-blog-post
+      each namePost in ['hardworking on fox', 'ready to love thefox', 'standard post', 'how do we call this', 'beautiful design', 'awesome work']
+        .blog-post
+          .post
+            h4= namePost
+            h5.modal__title= days
+          .img
+          .post-hover
+            h4= namePost
+            h5.modal__title= days
+          p.p-lato= captBlog
+          a.read-more(href="javascript: void(0);") Read more >
   button view all post

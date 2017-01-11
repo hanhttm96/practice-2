@@ -1,13 +1,13 @@
 // code here
 .preview, .next {
-  background-color: $color-button;
+  background-color: $color-dark-brown;
 }
 button {
   outline: none;
   border: solid 1px $color-while;
   color: $color-while;
   font-weight: $weight-medium;
-  font-size: $font-size-base+1;
+  font-size: $font-size-base;
   text-transform: uppercase;
   cursor: pointer;
 }

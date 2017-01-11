@@ -1,4 +1,4 @@
-.title {
+.modal__title {
   @extend %title-light-green;
 }
 .intro-title h2 {
@@ -15,5 +15,5 @@
   font-family: $font-lato;
   @include font-size(14px);
   line-height: $line-height-tiny;
-  color: $color-button;
+  color: $color-dark-brown;
 }

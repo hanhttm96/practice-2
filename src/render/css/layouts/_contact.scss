@@ -2,7 +2,7 @@
   display: flex;
 }
 .maps {
-  background-color: $color-dark-brown;
+  background-color: lighten($color-dark-brown, 20%);
   height: 610px;
   width: 40%;
 }
@@ -35,4 +35,12 @@
 }
 .left-arrow .intro-title hr {
   margin-left: 0;
+}
+.contact .name {
+  font-size: 13px;
+  color: $color-light-green;
+  margin-top: $margin-medium;
+  font-weight: $weight-medium;
+  font-family: $font-playfair;
+  line-height: $line-height-tiny;
 }

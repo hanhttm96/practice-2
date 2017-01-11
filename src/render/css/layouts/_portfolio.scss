@@ -35,13 +35,13 @@ ul.line1 li:nth-child(even) {
   background-color: $color-light-brown;
 }
 ul.line1 li:nth-child(odd) {
-  background-color: $color-dark-brown;
+  background-color: lighten($color-dark-brown, 10%);
 }
 ul.line2 li:nth-child(odd) {
   background-color: $color-light-brown;
 }
 ul.line2 li:nth-child(even) {
-  background-color: $color-dark-brown;
+  background-color: lighten($color-dark-brown, 10%);
 }
 ul.line1 li:hover {
   background-color: $color-gray;
@@ -75,7 +75,7 @@ ul.rate li {
   box-sizing: border-box;
 }
 .great-wooc {
-  padding-right: $padding-large+20;
+  padding-right: $padding-big;
 }
 .img-wooc {
   padding-left: 85px;
@@ -90,6 +90,6 @@ ul.rate li {
 }
 .great-wooc button {
   background-color: $color-light-green;
-  padding: $padding-medium+7 $padding-large+22;
+  padding: 22px $padding-big;
   margin-top: $padding-medium*2;
 }

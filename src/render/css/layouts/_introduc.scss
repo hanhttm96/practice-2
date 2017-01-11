@@ -47,7 +47,7 @@ section.who-we {
   border-bottom: 10px solid transparent;
   border-left: 10px solid $color-dark-gray;
 }
-.we-are .warpper {
+.we-are .wrapper {
   position: relative;
   padding: 100px 135px 100px 0;
   max-width: 615px;
@@ -61,32 +61,32 @@ section.who-we {
   padding-left: 16px;
   left: -3px;
 }
-.warpper > p.hello {
+.wrapper > p.hello {
   font-family: $font-playfair;
   text-transform: capitalize;
   @include font-size(16px);
   padding-bottom: $padding-medium;
 }
-.warpper h2 {
+.wrapper h2 {
   @extend %text-light-green;
   font-size: $font-size-h1;
   font-weight: $weight-large;
 }
-.warpper hr {
+.wrapper hr {
   @extend %hr;
   background-color: $color-while;
   margin: $margin-medium 0;
 }
-.warpper p > a{
+.wrapper p > a{
   text-decoration: underline;
   @extend %text-light-green;
 }
-.warpper button {
+.wrapper button {
   background: none;
   margin-top: $margin-medium*2;
-  padding: $padding-medium+1 $padding-large+7;
+  padding: $padding-medium 47px;
 }
-.warpper button span{
+.wrapper button span{
   @include font-size(20px);
   position: relative;
   top: 2px;

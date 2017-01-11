@@ -1,1 +1,37 @@
-h1 this is footer
+section.footer
+  .container
+    .wrap-footer
+      .col-md
+        .logo_img.pull-left
+          h2
+            a(href="javascript: void(0);")
+              img(src="./images/logo.png", alt="The logo") 
+              | thefox
+        .clear
+        h5.modal__title The best wordpress theme
+        p.p-lato Ut wisi enim ad minim veinam, quis nostrud exerci tation ullamcorper lobortis nisl ut aliquip.
+        ul.icon
+          each listIcon in ['icon-facebook', 'icon-twitter', 'icon-google', 'icon-clipboard']
+            li
+              span(class='#{listIcon}')
+      .col-md
+        h4 check fox's demo
+        ul.modal__link
+          each listFox in ['darken agency homepage', 'stunning about us', 'great contact page', 'coming soon design', 'fuxury fashion detail', 'shortcodes']
+            li.p-lato
+              a(href="javascript: void(0);")=listFox
+      .col-md
+        h4 useful links
+        ul.modal__link
+          each listFox in ['support center', 'see video tutorials', 'how to install TheFox in one click', 'parallax section demos', 'meet our team', 'contact & partnership']
+            li.p-lato
+              a(href="javascript: void(0);")=listFox
+      .col-md
+        h4 from flickr
+        -var n = 0
+        ul.modal__flickr
+          while n < 6
+            li= n++
+section.trademarks
+  h5 &copy; 2014 <span>TheFox</span> design. all right reserved.
+       

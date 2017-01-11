@@ -1,7 +1,7 @@
 section.team {
   @extend %margin-top;
 }
-.warp-team {
+.wrap-team {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@ section.team {
   margin-top: 10px;
 }
 .team-member hr {
-  background-color: $color-light-gray;
+  background-color: lighten($color-gray, 20%);
   height: 1px;
   border: none;
 }
@@ -34,6 +34,7 @@ ul.contact li {
   @include circle(42px);
   display: inline-block;
   text-align: center;
+  background-color: $color-while;
 }
 ul.contact {
   padding: 105px 65px;

@@ -1,1 +1,12 @@
-@import 'all';
+@import 'vendor/all';
+
+@import './base/reset';
+
+@import 'abstracts/all';
+
+@import './base/base';
+
+@import 'components/all';
+
+@import 'layouts/all';
+

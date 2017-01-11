@@ -1,6 +1,6 @@
 section.customer {
   @extend %margin-top;
-  background-color: $color-light-gray;
+  background-color: lighten($color-gray, 20%);
   padding-top: 100px;
 }
 .intro-customer {
@@ -37,7 +37,7 @@ section.customer {
 }
 .question h5 {
   @include font-size(18px);
-  color: $color-light-gray;
+  color: lighten($color-gray, 20%);
   display: inline-block;
   text-transform: inherit;
   word-spacing: 5px;

@@ -1,9 +1,9 @@
 .skill {
   text-align: center;
   @extend %margin-top;
-  background-color: $color-light-gray;
+  background-color: lighten($color-gray, 20%);
 }
-.warp-skill {
+.wrap-skill {
   padding-top: 100px;
 }
 .skill-rate {
@@ -14,7 +14,7 @@
 .skill-rate .percent {
   width: 570px;
   height: 15px;
-  border: solid 1px $color-border;
+  border: solid 1px darken($color-while, 10%);
   margin-right: 25px;
 }
 .percent {

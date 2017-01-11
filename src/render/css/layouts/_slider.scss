@@ -8,7 +8,7 @@ section.slider {
 .slider p{
   font-family: $font-playfair;
   font-size: $font-size-medium;
-  line-height: $line-height-small+12;
+  line-height: 62px;
 }
 .slider h2 {
   font-size: $font-size-large;
@@ -16,7 +16,7 @@ section.slider {
   font-weight: $weight-large;
 }
 div#carousel-example-generic {
-  padding: $padding-large+262 0;
+  padding: 302px 0;
 }
 .carousel-control {
   position: absolute;
@@ -37,16 +37,14 @@ div#carousel-example-generic {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  @include circle(10px);
   margin: 1px;
   cursor: pointer;
   background-color: $color-while;
   border-radius: 10px;
 }
 .carousel-indicators .active {
-  width: 10px;
-  height: 10px;
+  @include circle(10px);
   margin: 0;
   background-color: $color-light-green;
 }
@@ -66,7 +64,7 @@ div#carousel-example-generic {
 .carousel-caption button {
   background: none;
   margin: $margin-large $margin-medium 0 0;
-  padding: $padding-medium+5 $padding-large+10;
+  padding: 20px 40px;
 }
 .carousel-caption button:hover {
   color: $color-text-menu;
