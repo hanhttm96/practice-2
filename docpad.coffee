@@ -2,7 +2,7 @@
 # http://docpad.org/docs/config
 
 # Define the DocPad 
-  port: 8888
+# port: 8888
   watchOptions:
     preferredMethods: ['watchFile', 'watch']
     catchupDelay: 0
@@ -30,7 +30,5 @@
 
     getPreparedKeywords: ->
       @site.keywords.concat(@document.keywords or []).join(', ')
-}
-
 # Export the DocPad Configuration
-module.exports = docpadConfig
+    module.exports = docpadConfig
